@@ -4,8 +4,8 @@ export default function ResetFormLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className="h-full w-full flex justify-center items-center">
+    <main className="h-full w-full flex justify-center items-center">
       {children}
-    </section>
+    </main>
   );
 }
